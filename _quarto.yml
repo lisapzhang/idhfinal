@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Duke Admissions and Enrollment"
+  date: now
+  reader-mode: true
+  repo-url: https://github.com/lisapzhang/idhfinal
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+
+format: 
+  pdf: default
+  html: 
+    theme: cerulean
+    mainfont: "Atkinson Hyperlegible"
+    toc: true
+
+editor: visual

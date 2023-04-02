@@ -1,0 +1,36 @@
+---
+title: "Home"
+format: html
+editor: source
+---
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+```
+```{r}
+census <- read_csv("~/idhfinal/data/census.csv")
+```
+
+
+```{r}
+#| label: fig-departmentdistr
+#| fig-cap: "The number of students in each department from spring 1933 to spring 1943"
+#| fig-width: 10
+#| fig-height: 10
+census |>
+  drop_na() |>
+  filter(Department != "Engineering",
+         Department != "Civil Engineering",
+         Department != "Mechanical Engineering") |> 
+  ggplot(
+    aes(x = Year, y = `Number Students`, color = Semester)) +
+  geom_point() +
+  facet_wrap(~Department,
+             labeller = labeller(Department = label_wrap_gen(width = 25))) +
+  labs(title = "Department Distribution Over the Years") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 1)) +
+  scale_x_continuous(n.breaks = 10)
+```
+

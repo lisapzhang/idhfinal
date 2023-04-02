@@ -1,0 +1,555 @@
+﻿Semester,Year,Department,Number Students
+Spring,1933,Botany,213
+Spring,1933,Chemistry,499
+Spring,1933,Economics,1754
+Spring,1933,Education,486
+Spring,1933,Engineering,408
+Spring,1933,English,1476
+Spring,1933,Fine Arts,83
+Spring,1933,German,549
+Spring,1933,Greek,107
+Spring,1933,History,1055
+Spring,1933,Latin,74
+Spring,1933,Mathematics,561
+Spring,1933,Philosophy,266
+Spring,1933,Physics,344
+Spring,1933,Physical Education,1231
+Spring,1933,Psychology,224
+Spring,1933,Religion,1074
+Spring,1933,Romance Languages,988
+Spring,1933,Sociology,106
+Spring,1933,Zoology,377
+Fall,1933,Botany,245
+Fall,1933,Chemistry,588
+Fall,1933,Economics,1117
+Fall,1933,Education,415
+Fall,1933,Civil&Mechanical Engineering,123
+Fall,1933,Electrical Engineering,40
+Fall,1933,English,1466
+Fall,1933,Fine Arts,76
+Fall,1933,German,671
+Fall,1933,Greek,130
+Fall,1933,History,948
+Fall,1933,Latin,43
+Fall,1933,Mathematics,617
+Fall,1933,Music,9
+Fall,1933,Philosophy,196
+Fall,1933,Physics,314
+Fall,1933,Physical Education,1483
+Fall,1933,Psychology,423
+Fall,1933,Religion,584
+Fall,1933,Romance Languages,1105
+Fall,1933,Sociology,122
+Fall,1933,Zoology,446
+Fall,1934,Botany,245
+Fall,1934,Chemistry,598
+Fall,1934,Economics,1042
+Fall,1934,Education,399
+Fall,1934,Civil&Mechanical Engineering,136
+Fall,1934,Electrical Engineering,58
+Fall,1934,English,1554
+Fall,1934,Fine Arts,107
+Fall,1934,Forestry,9
+Fall,1934,German,765
+Fall,1934,Greek,104
+Fall,1934,History,1038
+Fall,1934,Latin,73
+Fall,1934,Mathematics,636
+Fall,1934,Music,16
+Fall,1934,Philosophy,228
+Fall,1934,Physics,387
+Fall,1934,Physical Education,1573
+Fall,1934,Political Science,368
+Fall,1934,Psychology,421
+Fall,1934,Religion,660
+Fall,1934,Romance Languages,1175
+Fall,1934,Sociology,130
+Fall,1934,Zoology,508
+Spring,1935,Botany,242
+Spring,1935,Chemistry,500
+Spring,1935,Economics,1028
+Spring,1935,Education,349
+Spring,1935,Civil&Mechanical Engineering,110
+Spring,1935,Electrical Engineering,31
+Spring,1935,English,1424
+Spring,1935,Fine Arts,106
+Spring,1935,Forestry,9
+Spring,1935,German,709
+Spring,1935,Greek,104
+Spring,1935,History,1137
+Spring,1935,Latin,66
+Spring,1935,Mathematics,500
+Spring,1935,Music,26
+Spring,1935,Philosophy,276
+Spring,1935,Physics,349
+Spring,1935,Physical Education,1513
+Spring,1935,Political Science,402
+Spring,1935,Psychology,296
+Spring,1935,Religion,670
+Spring,1935,Romance Languages,967
+Spring,1935,Sociology,135
+Spring,1935,Zoology,395
+Fall,1935,Botany,314
+Fall,1935,Chemistry,570
+Fall,1935,Economics,1144
+Fall,1935,Education,357
+Fall,1935,Civil&Mechanical Engineering,153
+Fall,1935,Electrical Engineering,39
+Fall,1935,English,1566
+Fall,1935,Fine Arts,145
+Fall,1935,Forestry,20
+Fall,1935,German,685
+Fall,1935,Greek,111
+Fall,1935,History,1067
+Fall,1935,Latin,51
+Fall,1935,Mathematics,625
+Fall,1935,Music,29
+Fall,1935,Philosophy,164
+Fall,1935,Physics,396
+Fall,1935,Physical Education,1709
+Fall,1935,Political Science,430
+Fall,1935,Psychology,430
+Fall,1935,Religion,651
+Fall,1935,Romance Languages,1282
+Fall,1935,Sociology,210
+Fall,1935,Zoology,563
+Spring,1936,Botany,300
+Spring,1936,Chemistry,463
+Spring,1936,Economics,1157
+Spring,1936,Education,409
+Spring,1936,Civil&Mechanical Engineering,133
+Spring,1936,Electrical Engineering,54
+Spring,1936,English,1410
+Spring,1936,Fine Arts,146
+Spring,1936,Forestry,8
+Spring,1936,German,622
+Spring,1936,Greek,106
+Spring,1936,History,1087
+Spring,1936,Latin,65
+Spring,1936,Mathematics,526
+Spring,1936,Music,24
+Spring,1936,Philosophy,325
+Spring,1936,Physics,392
+Spring,1936,Physical Education,1679
+Spring,1936,Political Science,415
+Spring,1936,Psychology,212
+Spring,1936,Religion,780
+Spring,1936,Romance Languages,1168
+Spring,1936,Sociology,181
+Spring,1936,Zoology,411
+Fall,1936,Botany,307
+Fall,1936,Chemistry,543
+Fall,1936,Economics,1765
+Fall,1936,Education,505
+Fall,1936,Civil&Mechanical Engineering,364
+Fall,1936,Electrical Engineering,112
+Fall,1936,English,1950
+Fall,1936,Fine Arts,197
+Fall,1936,Forestry,27
+Fall,1936,Geology,48
+Fall,1936,German,694
+Fall,1936,Greek,121
+Fall,1936,History,1251
+Fall,1936,Latin,77
+Fall,1936,Mathematics,610
+Fall,1936,Music,38
+Fall,1936,Philosophy,282
+Fall,1936,Physics,366
+Fall,1936,Physical Education,1677
+Fall,1936,Political Science,507
+Fall,1936,Psychology,391
+Fall,1936,Religion,1117
+Fall,1936,Romance Languages,1331
+Fall,1936,Sociology,225
+Fall,1936,Zoology,534
+Spring,1937,Botany,270
+Spring,1937,Chemistry,464
+Spring,1937,Economics,1752
+Spring,1937,Education,496
+Spring,1937,Civil&Mechanical Engineering,306
+Spring,1937,Electrical Engineering,49
+Spring,1937,English,1885
+Spring,1937,Fine Arts,228
+Spring,1937,Forestry,19
+Spring,1937,Geology,74
+Spring,1937,German,616
+Spring,1937,Greek,112
+Spring,1937,History,1349
+Spring,1937,Latin,76
+Spring,1937,Mathematics,556
+Spring,1937,Music,34
+Spring,1937,Philosophy,264
+Spring,1937,Physics,359
+Spring,1937,Physical Education,1586
+Spring,1937,Political Science,499
+Spring,1937,Psychology,230
+Spring,1937,Religion,707
+Spring,1937,Romance Languages,1194
+Spring,1937,Sociology,200
+Spring,1937,Zoology,436
+Fall,1937,Botany,295
+Fall,1937,Chemistry,636
+Fall,1937,Economics,1834
+Fall,1937,Education,495
+Fall,1937,Civil&Mechanical Engineering,331
+,1937,Civil Engineering,126
+,1937,Mechanical Engineering,205
+Fall,1937,Electrical Engineering,258
+Fall,1937,English,1951
+Fall,1937,Fine Arts,232
+Fall,1937,Forestry,45
+Fall,1937,Geology,154
+Fall,1937,German,616
+Fall,1937,Greek,151
+Fall,1937,History,1267
+Fall,1937,Latin,74
+Fall,1937,Mathematics,676
+Fall,1937,Music,24
+Fall,1937,Philosophy,264
+Fall,1937,Physics,377
+Fall,1937,Physical Education,1883
+Fall,1937,Political Science,605
+Fall,1937,Psychology,356
+Fall,1937,Religion,854
+Fall,1937,Romance Languages,1344
+Fall,1937,French,844
+Fall,1937,Italian,16
+Fall,1937,Spanish,484
+Fall,1937,Sociology,235
+Fall,1937,Zoology,501
+Spring,1938,Botany,283
+Spring,1938,Chemistry,534
+Spring,1938,Economics,1790
+Spring,1938,Education,489
+Spring,1938,Civil&Mechanical Engineering,294
+Spring,1938,Civil Engineering,128
+Spring,1938,Mechanical Engineering,166
+Spring,1938,Electrical Engineering,236
+Spring,1938,English,1839
+Spring,1938,Fine Arts,248
+Spring,1938,Forestry,26
+Spring,1938,Geology,102
+Spring,1938,German,551
+Spring,1938,Greek,153
+Spring,1938,History,1385
+Spring,1938,Latin,62
+Spring,1938,Mathematics,589
+Spring,1938,Music,19
+Spring,1938,Philosophy,274
+Spring,1938,Physics,352
+Spring,1938,Physical Education,1671
+Spring,1938,Political Science,597
+Spring,1938,Psychology,206
+Spring,1938,Religion,850
+Spring,1938,Romance Languages,1159
+Spring,1938,French,786
+Spring,1938,Italian,14
+Spring,1938,Spanish,359
+Spring,1938,Sociology,192
+Spring,1938,Zoology,434
+Fall,1938,Botany,222
+Fall,1938,Chemistry,709
+Fall,1938,Economics,1972
+Fall,1938,Education,420
+Fall,1938,Civil&Mechanical Engineering,425
+Fall,1938,Civil Engineering,92
+Fall,1938,Mechanical Engineering,333
+Fall,1938,Electrical Engineering,135
+Fall,1938,English,2026
+Fall,1938,Fine Arts,178
+Fall,1938,Forestry,125
+Fall,1938,Geology,73
+Fall,1938,German,591
+Fall,1938,Greek,133
+Fall,1938,History,1238
+Fall,1938,Latin,49
+Fall,1938,Mathematics,677
+Fall,1938,Music,58
+Fall,1938,Philosophy,255
+Fall,1938,Physics,508
+Fall,1938,Physical Education,1852
+Fall,1938,Political Science,583
+Fall,1938,Psychology,247
+Fall,1938,Religion,724
+Fall,1938,Romance Languages,1356
+Fall,1938,French,897
+Fall,1938,Italian,10
+Fall,1938,Spanish,449
+Fall,1938,Sociology,270
+Fall,1938,Zoology,557
+Spring,1939,Botany,230
+Spring,1939,Chemistry,590
+Spring,1939,Economics,1723
+Spring,1939,Education,494
+Spring,1939,Civil&Mechanical Engineering,410
+Spring,1939,Civil Engineering,79
+Spring,1939,Mechanical Engineering,331
+Spring,1939,Electrical Engineering,118
+Spring,1939,English,1846
+Spring,1939,Fine Arts,179
+Spring,1939,Forestry,101
+Spring,1939,Geology,60
+Spring,1939,German,513
+Spring,1939,Greek,123
+Spring,1939,History,1374
+Spring,1939,Latin,62
+Spring,1939,Mathematics,564
+Spring,1939,Music,69
+Spring,1939,Philosophy,296
+Spring,1939,Physics,446
+Spring,1939,Physical Education,1692
+Spring,1939,Political Science,590
+Spring,1939,Psychology,181
+Spring,1939,Religion,837
+Spring,1939,Romance Languages,1160
+Spring,1939,French,793
+Spring,1939,Italian,12
+Spring,1939,Spanish,356
+Spring,1939,Sociology,285
+Spring,1939,Zoology,470
+Fall,1939,Botany,281
+Fall,1939,Chemistry,717
+Fall,1939,Economics,1794
+Fall,1939,Education,504
+Fall,1939,Civil&Mechanical Engineering,521
+Fall,1939,Civil Engineering,168
+Fall,1939,Mechanical Engineering,353
+Fall,1939,Electrical Engineering,162
+Fall,1939,English,2272
+Fall,1939,Fine Arts,184
+Fall,1939,Forestry,126
+Fall,1939,Geology,70
+Fall,1939,German,597
+Fall,1939,Greek,116
+Fall,1939,History,1266
+Fall,1939,Latin,50
+Fall,1939,Mathematics,673
+Fall,1939,Music,100
+Fall,1939,Philosophy,268
+Fall,1939,Physics,446
+Fall,1939,Physical Education,1937
+Fall,1939,Political Science,677
+Fall,1939,Psychology,312
+Fall,1939,Religion,1247
+Fall,1939,Romance Languages,1412
+Fall,1939,French,912
+Fall,1939,Italian,9
+Fall,1939,Romance Literature,11
+Fall,1939,Spanish,480
+Fall,1939,Sociology,261
+Fall,1939,Zoology,558
+Spring,1940,Botany,283
+Spring,1940,Chemistry,612
+Spring,1940,Economics,1603
+Spring,1940,Education,553
+Spring,1940,Civil&Mechanical Engineering,528
+Spring,1940,Civil Engineering,172
+Spring,1940,Mechanical Engineering,356
+Spring,1940,Electrical Engineering,141
+Spring,1940,English,1930
+Spring,1940,Fine Arts,201
+Spring,1940,Forestry,115
+Spring,1940,Geology,54
+Spring,1940,German,514
+Spring,1940,Greek,129
+Spring,1940,History,1366
+Spring,1940,Latin,47
+Spring,1940,Mathematics,567
+Spring,1940,Music,80
+Spring,1940,Philosophy,369
+Spring,1940,Physics,421
+Spring,1940,Physical Education,1738
+Spring,1940,Political Science,669
+Spring,1940,Psychology,216
+Spring,1940,Religion,1261
+Spring,1940,Romance Languages,1234
+Spring,1940,French,813
+Spring,1940,Italian,8
+Spring,1940,Romance Literature,17
+Spring,1940,Spanish,396
+Spring,1940,Sociology,390
+Spring,1940,Zoology,446
+Fall,1940,Botany,286
+Fall,1940,Chemistry,709
+Fall,1940,Economics,1802
+Fall,1940,Education,540
+Fall,1940,Civil&Mechanical Engineering,537
+Fall,1940,Civil Engineering,174
+Fall,1940,Mechanical Engineering,363
+Fall,1940,Electrical Engineering,238
+Fall,1940,English,2069
+Fall,1940,Fine Arts,154
+Fall,1940,Forestry,139
+Fall,1940,Geology,148
+Fall,1940,German,550
+Fall,1940,Greek,122
+Fall,1940,History,1330
+Fall,1940,Latin,50
+Fall,1940,Mathematics,667
+Fall,1940,Music,106
+Fall,1940,Philosophy,236
+Fall,1940,Physics,485
+Fall,1940,Physical Education,1844
+Fall,1940,Political Science,662
+Fall,1940,Psychology,319
+Fall,1940,Religion,1239
+Fall,1940,Romance Languages,1454
+Fall,1940,French,832
+Fall,1940,Italian,18
+Fall,1940,Romance Literature,40
+Fall,1940,Spanish,564
+Fall,1940,Sociology,346
+Fall,1940,Zoology,502
+Spring,1941,Botany,279
+Spring,1941,Chemistry,581
+Spring,1941,Economics,1737
+Spring,1941,Education,486
+Spring,1941,Civil&Mechanical Engineering,588
+Spring,1941,Civil Engineering,141
+Spring,1941,Mechanical Engineering,447
+Spring,1941,Electrical Engineering,171
+Spring,1941,English,1854
+Spring,1941,Fine Arts,166
+Spring,1941,Forestry,151
+Spring,1941,Geology,62
+Spring,1941,German,490
+Spring,1941,Greek,155
+Spring,1941,History,1376
+Spring,1941,Latin,45
+Spring,1941,Mathematics,580
+Spring,1941,Music,105
+Spring,1941,Philosophy,290
+Spring,1941,Physics,419
+Spring,1941,Physical Education,1682
+Spring,1941,Political Science,618
+Spring,1941,Psychology,206
+Spring,1941,Religion,1311
+Spring,1941,Romance Languages,1232
+Spring,1941,French,722
+Spring,1941,Italian,16
+Spring,1941,Romance Literature,34
+Spring,1941,Spanish,460
+Spring,1941,Sociology,362
+Spring,1941,Zoology,435
+Fall,1941,Botany,297
+Fall,1941,Chemistry,717
+Fall,1941,Economics,1651
+Fall,1941,Education,480
+Fall,1941,Civil&Mechanical Engineering,640
+Fall,1941,Civil Engineering,221
+Fall,1941,Mechanical Engineering,419
+Fall,1941,Electrical Engineering,165
+Fall,1941,English,2036
+Fall,1941,Fine Arts,171
+Fall,1941,Forestry,83
+Fall,1941,Geology,77
+Fall,1941,German,488
+Fall,1941,Greek,109
+Fall,1941,History,1148
+Fall,1941,Latin,46
+Fall,1941,Mathematics,734
+Fall,1941,Music,115
+Fall,1941,Philosophy,253
+Fall,1941,Physics,485
+Fall,1941,Physical Education,1721
+Fall,1941,Political Science,652
+Fall,1941,Psychology,361
+Fall,1941,Religion,1162
+Fall,1941,Romance Languages,1429
+Fall,1941,French,683
+Fall,1941,Italian,8
+Fall,1941,Romance Literature,17
+Fall,1941,Spanish,722
+Fall,1941,Sociology,263
+Fall,1941,Zoology,463
+Spring,1942,Botany,305
+Spring,1942,Chemistry,608
+Spring,1942,Economics,1471
+Spring,1942,Education,381
+Spring,1942,Civil&Mechanical Engineering,638
+Spring,1942,Civil Engineering,143
+Spring,1942,Mechanical Engineering,495
+Spring,1942,Electrical Engineering,172
+Spring,1942,English,1684
+Spring,1942,Fine Arts,188
+Spring,1942,Forestry,75
+Spring,1942,Geology,54
+Spring,1942,German,431
+Spring,1942,Greek,126
+Spring,1942,History,1142
+Spring,1942,Latin,41
+Spring,1942,Mathematics,744
+Spring,1942,Music,109
+Spring,1942,Philosophy,256
+Spring,1942,Physics,453
+Spring,1942,Physical Education,1749
+Spring,1942,Political Science,621
+Spring,1942,Psychology,522
+Spring,1942,Religion,1085
+Spring,1942,Romance Languages,1192
+Spring,1942,French,593
+Spring,1942,Italian,8
+Spring,1942,Romance Literature,10
+Spring,1942,Spanish,581
+Spring,1942,Sociology,277
+Spring,1942,Zoology,390
+Fall,1942,"Aesthetics, Art, and Music",236
+Fall,1942,Botany,171
+Fall,1942,Chemistry,763
+Fall,1942,Economics,1583
+Fall,1942,Education,262
+Fall,1942,Civil&Mechanical Engineering,844
+Fall,1942,Civil Engineering,138
+Fall,1942,Mechanical Engineering,706
+Fall,1942,Electrical Engineering,250
+Fall,1942,English,1815
+Fall,1942,Forestry,59
+Fall,1942,Geology,61
+Fall,1942,German,506
+Fall,1942,Greek,131
+Fall,1942,History,981
+Fall,1942,Latin,29
+Fall,1942,Mathematics,1001
+Fall,1942,Philosophy,243
+Fall,1942,Physics,724
+Fall,1942,Physical Education,1529
+Fall,1942,Political Science,512
+Fall,1942,Psychology,287
+Fall,1942,Religion,536
+Fall,1942,Romance Languages,1302
+Fall,1942,French,568
+Fall,1942,Italian,8
+Fall,1942,Romance Literature,15
+Fall,1942,Spanish,711
+Fall,1942,Sociology,226
+Fall,1942,Zoology,472
+Spring,1943,"Aesthetics, Art, and Music",211
+Spring,1943,Botany,151
+Spring,1943,Chemistry,577
+Spring,1943,Economics,951
+Spring,1943,Education,286
+Spring,1943,Civil&Mechanical Engineering,705
+Spring,1943,Civil Engineering,84
+Spring,1943,Mechanical Engineering,621
+Spring,1943,Electrical Engineering,297
+Spring,1943,English,1421
+Spring,1943,Forestry,57
+Spring,1943,Geology,45
+Spring,1943,German,423
+Spring,1943,Greek,132
+Spring,1943,History,821
+Spring,1943,Latin,72
+Spring,1943,Mathematics,869
+Spring,1943,Philosophy,230
+Spring,1943,Physics,583
+Spring,1943,Physical Education,1585
+Spring,1943,Political Science,390
+Spring,1943,Psychology,246
+Spring,1943,Religion,453
+Spring,1943,Romance Languages,971
+Spring,1943,French,442
+Spring,1943,Italian,7
+Spring,1943,Romance Literature,10
+Spring,1943,Spanish,512
+Spring,1943,Sociology,157
+Spring,1943,Zoology,349
