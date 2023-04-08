@@ -11,6 +11,7 @@ library(dplyr)
 ```
 ```{r}
 census <- read_csv("~/idhfinal/data/census.csv")
+gender <- read_csv("~/idhfinal/data/undergradgender.csv")
 ```
 
 
@@ -32,5 +33,25 @@ census |>
   labs(title = "Department Distribution Over the Years") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 1)) +
   scale_x_continuous(n.breaks = 10)
+```
+
+```{r}
+gender_long <- gender |>
+  pivot_longer(
+    cols = c(Men, Women),
+    names_to = "Gender",
+    values_to = "Number",
+  )
+```
+
+```{r}
+gender_long |>
+  ggplot(
+    aes(x = Year, y = Number, color = Gender)) +
+  geom_point() +
+  geom_smooth(method = lm, se = FALSE) +
+  labs(title = "Undergraduate Enrollment by Gender",
+       x = "Year",
+       y = "Number of Students") 
 ```
 
