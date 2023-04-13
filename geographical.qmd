@@ -1,0 +1,76 @@
+---
+title: "Geographical Distribution"
+format: html
+echo: false
+editor: source
+---
+
+```{r}
+#| message = FALSE
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(kableExtra)
+```
+
+```{r}
+#| message = FALSE
+geodist <- read_csv("~/idhfinal/data/geographical.csv")
+```
+
+```{r}
+geodist <- geodist |>
+  select(1:4)
+```
+
+```{r}
+#| fig-width: 10
+#| fig-height: 10
+geodist |>
+  drop_na() |>
+  filter(Year != 1929) |>
+  ggplot(
+    aes(x = Year, y = Number, color = State)) +
+  geom_point(show.legend = F) +
+  facet_wrap(~State,
+             labeller = labeller(State = label_wrap_gen(width = 25))) +
+  labs(title = "Department Distribution Over the Years") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 1)) +
+  scale_x_continuous(n.breaks = 10)
+```
+```{r}
+ geodistwide <- geodist |>
+  drop_na() |>
+  pivot_wider(
+    names_from = Year,
+    values_from = Number
+  )
+
+geodistwide <- geodistwide |> replace(is.na(geodistwide),0)
+```
+
+```{r}
+#| message = FALSE
+geodistwide <- geodistwide |>
+  group_by(State) |>
+  summarise(
+    Region = Region,
+    `1929` = sum(`1929`),
+    `1930` = sum(`1930`),
+    `1940` = sum(`1940`),
+    `1950` = sum(`1950`),
+    `1970` = sum(`1970`),
+    `1980` = sum(`1980`),
+    `1990` = sum(`1990`))
+```
+
+```{r}
+geodistwide |>
+  kbl(col.names = c("State", "Region", "1929", "1930", "1940", "1950", "1970", "1980", "1990")) |>
+    kable_classic()
+```
+
+```{r}
+
+```
+

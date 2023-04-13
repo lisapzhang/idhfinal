@@ -1,0 +1,45 @@
+---
+title: "Gender Distribution"
+format: html
+echo: false
+editor: source
+---
+
+Let's examine the distributions of male and female undergraduate students at Duke University throughout the last century, using data on male and female students collected from the fall semesters for various years between 1929 and 2022. How have these distributions changed over time, and what has Duke done to facilitate these changes?
+
+When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, benefactor Washington Duke wrote to president John C. Kilgo pledging $100,000 to Trinity College for endowment provided the college "will open its doors to women placing them on an equal footing with men."
+
+```{r}
+#| message = FALSE
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+#| message = FALSE
+gender <- read_csv("~/idhfinal/data/undergradgender.csv")
+```
+
+```{r}
+gender_long <- gender |>
+  pivot_longer(
+    cols = c(Men, Women),
+    names_to = "Gender",
+    values_to = "Number",
+  )
+```
+
+```{r}
+#| label: fig-genderyear
+#| fig-cap: "The number of male and female undergraduate students from the years 1929 to 2022"
+gender_long |>
+  ggplot(
+    aes(x = Year, y = Number, color = Gender)) +
+  geom_point() +
+  geom_line() +
+  labs(title = "Undergraduate Enrollment by Gender",
+       x = "Year",
+       y = "Number of Students") 
+```
+
