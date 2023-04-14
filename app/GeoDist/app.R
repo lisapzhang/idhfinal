@@ -61,7 +61,7 @@ server <- function(input, output) {
       st_transform(crs = "+init=epsg:4326") |>
       leaflet() |>
       addProviderTiles("CartoDB.Positron") |>
-      setView(-100, 40, zoom = 4) |>
+      setView(-100, 40, zoom = 3) |>
       addPolygons(label = labels,
                   stroke = FALSE,
                   smoothFactor = 0.5,

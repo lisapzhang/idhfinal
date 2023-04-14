@@ -5,9 +5,9 @@ account: lisapzhang
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8847006
-bundleId: 7087607
+bundleId: 7087797
 url: https://lisapzhang.shinyapps.io/GeoDist/
-when: 1681436188.17793
-lastSyncTime: 1681436188.17795
+when: 1681440517.44854
+lastSyncTime: 1681440517.44855
 asMultiple: FALSE
 asStatic: FALSE
