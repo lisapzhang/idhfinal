@@ -7,13 +7,20 @@ editor: source
 
 Let's examine the distributions of male and female undergraduate students at Duke University throughout the last century, using data on male and female students collected from the fall semesters for various years between 1929 and 2022. How have these distributions changed over time, and what has Duke done to facilitate these changes?
 
-When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, benefactor Washington Duke wrote to president John C. Kilgo pledging $100,000 to Trinity College for endowment provided the college "will open its doors to women placing them on an equal footing with men."
+When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, after Trinity College's move to Durham, benefactor Washington Duke wrote to president John C. Kilgo pledging \$100,000 to Trinity College for endowment provided the college "will open its doors to women placing them on an equal footing with men." This act gained widespread acclaim and garnered increased support for womens' rights and education.
+
+When the college opened in Durham in 1892, a vote by the Board of Trustees' formally allowed women to enroll, but as day students only. There were four women enrolled then, and three of them were the daughters of faculty. These women were about to graduate at the time of Washington Duke's gift, but the funds went to building a new womens' dormitory, which dramatically increased interested in the school for female students. The new dormitory was proudly named Mary Duke Building, in honor of Washington Duke's only daughter, Mary Duke.
+
+The Woman's College was established in 1930 with the completion of the construction of East Campus, while West Campus was home to the men's Trinity College. Classes for women were held separately from those for men, and mostly on East Campus. Over time, interest in coeducation grew, and eventually, the two schools were merged in 1972.
+
+![Baldwin Auditorium, originally named Woman's College Auditorium, renamed after Dean Alice Baldwin in 1968.](images/baldwin.jpeg)
 
 ```{r}
 #| message = FALSE
 library(ggplot2)
 library(tidyverse)
 library(dplyr)
+library(kableExtra)
 ```
 
 ```{r}
@@ -42,4 +49,33 @@ gender_long |>
        x = "Year",
        y = "Number of Students") 
 ```
+
+Looking at the scatterplot in @fig-genderyear, we can clearly see the increase in enrollment for both undergraduate men and women over time; however, the rate of increase for women is greater than that for men. Due to gaps in raw data, there are periods of time in which the year-to-year changes are generalized, such as during the 1960s and 2000s. However, it is still apparent that there was a general upward trend.
+
+The proportion of women undergraduate students today is greater than that of men, and that surpass occurred approximately around 2010. As of 2023, the undergraduate school is 48% male and 52% female. Although specific data is lacking for the years between 1998 and 2018, a *New York Times* article published in 2003 reported the figure of 43% of the undergraduate body being women, so until then, men still remained the majority.
+
+```{r}
+#| label: fig-genderpercent
+#| fig-cap: "The proportions of male and female undergraduate students from the years 1929 to 2022"
+gender_long |>
+  ggplot(
+    aes(x = Year, y = Number, fill = Gender)
+  ) +
+  geom_bar(position = "fill", stat = "identity") +
+  labs(x = "Year",
+       y = "Percentage",
+       title = "Undergraduate Gender Proportions Over Time")
+```
+
+
+```{r}
+#| label: tbl-genderpercent
+#| tbl-cap: "The percentages per year of undergraduate men and women"
+gender |>
+  mutate(`Percent Men` = Men/(Men + Women)*100,
+         `Percent Women` = Women/(Men + Women)*100) |>
+  kbl(col.names = c("Year", "Men", "Women", "Percent Men", "Percent Women")) |>
+    kable_paper("hover", "striped")
+```
+
 

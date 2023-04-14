@@ -12,6 +12,7 @@ website:
     left:
     - index.qmd
     - gender.qmd
+    - enrollment.qmd
     - department.qmd
     - geographical.qmd
 

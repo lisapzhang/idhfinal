@@ -1,0 +1,21 @@
+---
+title: "Enrollment Distribution"
+format: html
+echo: false
+editor: source
+---
+
+```{r}
+#| message = FALSE
+library(ggplot2)
+library(tidyverse)
+library(dplyr)
+library(kableExtra)
+```
+
+```{r}
+#| message = FALSE
+enrollment <- read_csv("~/idhfinal/data/enrollment.csv")
+```
+
+

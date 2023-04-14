@@ -11,6 +11,11 @@ library(ggplot2)
 library(tidyverse)
 library(dplyr)
 library(kableExtra)
+library(sf)
+library(ggspatial)
+library(tigris)
+library(leaflet)
+library(stars)
 ```
 
 ```{r}
@@ -38,7 +43,9 @@ geodist |>
   theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 1)) +
   scale_x_continuous(n.breaks = 10)
 ```
+
 ```{r}
+#| label: geodistwide
  geodistwide <- geodist |>
   drop_na() |>
   pivot_wider(
@@ -50,6 +57,7 @@ geodistwide <- geodistwide |> replace(is.na(geodistwide),0)
 ```
 
 ```{r}
+#| label: geodistwidebystate
 #| message = FALSE
 geodistwide <- geodistwide |>
   group_by(State) |>
@@ -65,12 +73,26 @@ geodistwide <- geodistwide |>
 ```
 
 ```{r}
+#| label: geodistwide-kable
 geodistwide |>
   kbl(col.names = c("State", "Region", "1929", "1930", "1940", "1950", "1970", "1980", "1990")) |>
-    kable_classic()
+    kable_paper("hover")
 ```
 
 ```{r}
-
+states <- read_sf("data/statesf/cb_2018_us_state_20m.shp")
 ```
 
+```{r}
+statesjoin <- geo_join(states, geodist, "NAME", "State", how = "inner") 
+```
+
+```{r}
+#| label: save-df-for-shiny
+#| eval: false
+saveRDS(statesjoin, "app/GeoDist/statesjoin.RDS")
+```
+
+```{=html}
+<iframe height="700" width="120%" frameborder="no" src="https://lisapzhang.shinyapps.io/GeoDist/"> </iframe>
+```

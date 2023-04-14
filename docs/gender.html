@@ -59,6 +59,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet">
+
 
 </head>
 
@@ -85,6 +88,10 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./gender.html" aria-current="page">
  <span class="menu-text">Gender Distribution</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./enrollment.html">
+ <span class="menu-text">Enrollment Distribution</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./department.html">
@@ -135,7 +142,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Let’s examine the distributions of male and female undergraduate students at Duke University throughout the last century, using data on male and female students collected from the fall semesters for various years between 1929 and 2022. How have these distributions changed over time, and what has Duke done to facilitate these changes?</p>
-<p>When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, benefactor Washington Duke wrote to president John C. Kilgo pledging $100,000 to Trinity College for endowment provided the college “will open its doors to women placing them on an equal footing with men.”</p>
+<p>When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, after Trinity College’s move to Durham, benefactor Washington Duke wrote to president John C. Kilgo pledging $100,000 to Trinity College for endowment provided the college “will open its doors to women placing them on an equal footing with men.” This act gained widespread acclaim and garnered increased support for womens’ rights and education.</p>
+<p>When the college opened in Durham in 1892, a vote by the Board of Trustees’ formally allowed women to enroll, but as day students only. There were four women enrolled then, and three of them were the daughters of faculty. These women were about to graduate at the time of Washington Duke’s gift, but the funds went to building a new womens’ dormitory, which dramatically increased interested in the school for female students. The new dormitory was proudly named Mary Duke Building, in honor of Washington Duke’s only daughter, Mary Duke.</p>
+<p>The Woman’s College was established in 1930 with the completion of the construction of East Campus, while West Campus was home to the men’s Trinity College. Classes for women were held separately from those for men, and mostly on East Campus. Over time, interest in coeducation grew, and eventually, the two schools were merged in 1972.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/baldwin.jpeg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Baldwin Auditorium, originally named Woman’s College Auditorium, renamed after Dean Alice Baldwin in 1968.</figcaption><p></p>
+</figure>
+</div>
 <div class="cell">
 
 </div>
@@ -152,6 +167,424 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="gender_files/figure-html/fig-genderyear-1.png" class="img-fluid figure-img" width="672"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;1: The number of male and female undergraduate students from the years 1929 to 2022</figcaption><p></p>
 </figure>
+</div>
+</div>
+</div>
+<p>Looking at the scatterplot in <a href="#fig-genderyear">Figure&nbsp;1</a>, we can clearly see the increase in enrollment for both undergraduate men and women over time; however, the rate of increase for women is greater than that for men. Due to gaps in raw data, there are periods of time in which the year-to-year changes are generalized, such as during the 1960s and 2000s. However, it is still apparent that there was a general upward trend.</p>
+<p>The proportion of women undergraduate students today is greater than that of men, and that surpass occurred approximately around 2010. As of 2023, the undergraduate school is 48% male and 52% female. Although specific data is lacking for the years between 1998 and 2018, a <em>New York Times</em> article published in 2003 reported the figure of 43% of the undergraduate body being women, so until then, men still remained the majority.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-genderpercent" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="gender_files/figure-html/fig-genderpercent-1.png" class="img-fluid figure-img" width="672"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;2: The proportions of male and female undergraduate students from the years 1929 to 2022</figcaption><p></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div id="tbl-genderpercent" class="anchored">
+
+<table class=" lightable-paper lightable-hover" style="font-family: striped; margin-left: auto; margin-right: auto;"><caption>Table&nbsp;1:  The percentages per year of undergraduate men and women </caption>
+ <thead>
+  <tr>
+   <th style="text-align:right;"> Year </th>
+   <th style="text-align:right;"> Men </th>
+   <th style="text-align:right;"> Women </th>
+   <th style="text-align:right;"> Percent Men </th>
+   <th style="text-align:right;"> Percent Women </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:right;"> 1929 </td>
+   <td style="text-align:right;"> 1640 </td>
+   <td style="text-align:right;"> 452 </td>
+   <td style="text-align:right;"> 78.39388 </td>
+   <td style="text-align:right;"> 21.60612 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1930 </td>
+   <td style="text-align:right;"> 1730 </td>
+   <td style="text-align:right;"> 575 </td>
+   <td style="text-align:right;"> 75.05423 </td>
+   <td style="text-align:right;"> 24.94577 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1931 </td>
+   <td style="text-align:right;"> 1930 </td>
+   <td style="text-align:right;"> 735 </td>
+   <td style="text-align:right;"> 72.42026 </td>
+   <td style="text-align:right;"> 27.57974 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1932 </td>
+   <td style="text-align:right;"> 1971 </td>
+   <td style="text-align:right;"> 784 </td>
+   <td style="text-align:right;"> 71.54265 </td>
+   <td style="text-align:right;"> 28.45735 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1933 </td>
+   <td style="text-align:right;"> 2036 </td>
+   <td style="text-align:right;"> 880 </td>
+   <td style="text-align:right;"> 69.82167 </td>
+   <td style="text-align:right;"> 30.17833 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1934 </td>
+   <td style="text-align:right;"> 2213 </td>
+   <td style="text-align:right;"> 946 </td>
+   <td style="text-align:right;"> 70.05381 </td>
+   <td style="text-align:right;"> 29.94619 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1936 </td>
+   <td style="text-align:right;"> 2307 </td>
+   <td style="text-align:right;"> 1016 </td>
+   <td style="text-align:right;"> 69.42522 </td>
+   <td style="text-align:right;"> 30.57478 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1937 </td>
+   <td style="text-align:right;"> 2293 </td>
+   <td style="text-align:right;"> 1034 </td>
+   <td style="text-align:right;"> 68.92095 </td>
+   <td style="text-align:right;"> 31.07905 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1938 </td>
+   <td style="text-align:right;"> 2389 </td>
+   <td style="text-align:right;"> 1084 </td>
+   <td style="text-align:right;"> 68.78779 </td>
+   <td style="text-align:right;"> 31.21221 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1939 </td>
+   <td style="text-align:right;"> 2508 </td>
+   <td style="text-align:right;"> 1122 </td>
+   <td style="text-align:right;"> 69.09091 </td>
+   <td style="text-align:right;"> 30.90909 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1940 </td>
+   <td style="text-align:right;"> 2536 </td>
+   <td style="text-align:right;"> 1147 </td>
+   <td style="text-align:right;"> 68.85691 </td>
+   <td style="text-align:right;"> 31.14309 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1941 </td>
+   <td style="text-align:right;"> 2388 </td>
+   <td style="text-align:right;"> 1181 </td>
+   <td style="text-align:right;"> 66.90950 </td>
+   <td style="text-align:right;"> 33.09050 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1942 </td>
+   <td style="text-align:right;"> 2283 </td>
+   <td style="text-align:right;"> 1260 </td>
+   <td style="text-align:right;"> 64.43692 </td>
+   <td style="text-align:right;"> 35.56308 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1948 </td>
+   <td style="text-align:right;"> 3718 </td>
+   <td style="text-align:right;"> 1396 </td>
+   <td style="text-align:right;"> 72.70239 </td>
+   <td style="text-align:right;"> 27.29761 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1949 </td>
+   <td style="text-align:right;"> 3699 </td>
+   <td style="text-align:right;"> 1386 </td>
+   <td style="text-align:right;"> 72.74336 </td>
+   <td style="text-align:right;"> 27.25664 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1950 </td>
+   <td style="text-align:right;"> 3535 </td>
+   <td style="text-align:right;"> 1377 </td>
+   <td style="text-align:right;"> 71.96661 </td>
+   <td style="text-align:right;"> 28.03339 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1951 </td>
+   <td style="text-align:right;"> 3251 </td>
+   <td style="text-align:right;"> 1380 </td>
+   <td style="text-align:right;"> 70.20082 </td>
+   <td style="text-align:right;"> 29.79918 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1952 </td>
+   <td style="text-align:right;"> 3195 </td>
+   <td style="text-align:right;"> 1339 </td>
+   <td style="text-align:right;"> 70.46758 </td>
+   <td style="text-align:right;"> 29.53242 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1967 </td>
+   <td style="text-align:right;"> 2865 </td>
+   <td style="text-align:right;"> 1658 </td>
+   <td style="text-align:right;"> 63.34291 </td>
+   <td style="text-align:right;"> 36.65709 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1968 </td>
+   <td style="text-align:right;"> 2897 </td>
+   <td style="text-align:right;"> 1745 </td>
+   <td style="text-align:right;"> 62.40844 </td>
+   <td style="text-align:right;"> 37.59156 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1969 </td>
+   <td style="text-align:right;"> 2918 </td>
+   <td style="text-align:right;"> 1763 </td>
+   <td style="text-align:right;"> 62.33711 </td>
+   <td style="text-align:right;"> 37.66289 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1970 </td>
+   <td style="text-align:right;"> 3004 </td>
+   <td style="text-align:right;"> 1830 </td>
+   <td style="text-align:right;"> 62.14315 </td>
+   <td style="text-align:right;"> 37.85685 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1971 </td>
+   <td style="text-align:right;"> 3110 </td>
+   <td style="text-align:right;"> 1956 </td>
+   <td style="text-align:right;"> 61.38966 </td>
+   <td style="text-align:right;"> 38.61034 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1972 </td>
+   <td style="text-align:right;"> 3214 </td>
+   <td style="text-align:right;"> 2117 </td>
+   <td style="text-align:right;"> 60.28888 </td>
+   <td style="text-align:right;"> 39.71112 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1973 </td>
+   <td style="text-align:right;"> 3157 </td>
+   <td style="text-align:right;"> 2152 </td>
+   <td style="text-align:right;"> 59.46506 </td>
+   <td style="text-align:right;"> 40.53494 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1974 </td>
+   <td style="text-align:right;"> 3157 </td>
+   <td style="text-align:right;"> 2273 </td>
+   <td style="text-align:right;"> 58.13996 </td>
+   <td style="text-align:right;"> 41.86004 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1975 </td>
+   <td style="text-align:right;"> 3133 </td>
+   <td style="text-align:right;"> 2347 </td>
+   <td style="text-align:right;"> 57.17153 </td>
+   <td style="text-align:right;"> 42.82847 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1976 </td>
+   <td style="text-align:right;"> 3121 </td>
+   <td style="text-align:right;"> 2558 </td>
+   <td style="text-align:right;"> 54.95686 </td>
+   <td style="text-align:right;"> 45.04314 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1977 </td>
+   <td style="text-align:right;"> 3136 </td>
+   <td style="text-align:right;"> 2666 </td>
+   <td style="text-align:right;"> 54.05033 </td>
+   <td style="text-align:right;"> 45.94967 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1978 </td>
+   <td style="text-align:right;"> 3236 </td>
+   <td style="text-align:right;"> 2852 </td>
+   <td style="text-align:right;"> 53.15375 </td>
+   <td style="text-align:right;"> 46.84625 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1979 </td>
+   <td style="text-align:right;"> 3241 </td>
+   <td style="text-align:right;"> 2835 </td>
+   <td style="text-align:right;"> 53.34101 </td>
+   <td style="text-align:right;"> 46.65899 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1980 </td>
+   <td style="text-align:right;"> 3215 </td>
+   <td style="text-align:right;"> 2852 </td>
+   <td style="text-align:right;"> 52.99159 </td>
+   <td style="text-align:right;"> 47.00841 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1981 </td>
+   <td style="text-align:right;"> 3300 </td>
+   <td style="text-align:right;"> 2878 </td>
+   <td style="text-align:right;"> 53.41534 </td>
+   <td style="text-align:right;"> 46.58466 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1982 </td>
+   <td style="text-align:right;"> 3290 </td>
+   <td style="text-align:right;"> 2863 </td>
+   <td style="text-align:right;"> 53.46985 </td>
+   <td style="text-align:right;"> 46.53015 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1983 </td>
+   <td style="text-align:right;"> 3262 </td>
+   <td style="text-align:right;"> 2964 </td>
+   <td style="text-align:right;"> 52.39319 </td>
+   <td style="text-align:right;"> 47.60681 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1984 </td>
+   <td style="text-align:right;"> 3300 </td>
+   <td style="text-align:right;"> 3061 </td>
+   <td style="text-align:right;"> 51.87864 </td>
+   <td style="text-align:right;"> 48.12136 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1985 </td>
+   <td style="text-align:right;"> 3309 </td>
+   <td style="text-align:right;"> 3053 </td>
+   <td style="text-align:right;"> 52.01195 </td>
+   <td style="text-align:right;"> 47.98805 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1986 </td>
+   <td style="text-align:right;"> 3481 </td>
+   <td style="text-align:right;"> 3044 </td>
+   <td style="text-align:right;"> 53.34866 </td>
+   <td style="text-align:right;"> 46.65134 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1987 </td>
+   <td style="text-align:right;"> 3531 </td>
+   <td style="text-align:right;"> 2892 </td>
+   <td style="text-align:right;"> 54.97431 </td>
+   <td style="text-align:right;"> 45.02569 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1988 </td>
+   <td style="text-align:right;"> 3585 </td>
+   <td style="text-align:right;"> 2820 </td>
+   <td style="text-align:right;"> 55.97190 </td>
+   <td style="text-align:right;"> 44.02810 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1989 </td>
+   <td style="text-align:right;"> 3589 </td>
+   <td style="text-align:right;"> 2792 </td>
+   <td style="text-align:right;"> 56.24510 </td>
+   <td style="text-align:right;"> 43.75490 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1990 </td>
+   <td style="text-align:right;"> 3603 </td>
+   <td style="text-align:right;"> 2873 </td>
+   <td style="text-align:right;"> 55.63620 </td>
+   <td style="text-align:right;"> 44.36380 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1991 </td>
+   <td style="text-align:right;"> 3521 </td>
+   <td style="text-align:right;"> 2933 </td>
+   <td style="text-align:right;"> 54.55531 </td>
+   <td style="text-align:right;"> 45.44469 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1992 </td>
+   <td style="text-align:right;"> 3520 </td>
+   <td style="text-align:right;"> 2995 </td>
+   <td style="text-align:right;"> 54.02916 </td>
+   <td style="text-align:right;"> 45.97084 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1993 </td>
+   <td style="text-align:right;"> 3538 </td>
+   <td style="text-align:right;"> 3048 </td>
+   <td style="text-align:right;"> 53.72001 </td>
+   <td style="text-align:right;"> 46.27999 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1994 </td>
+   <td style="text-align:right;"> 3436 </td>
+   <td style="text-align:right;"> 3082 </td>
+   <td style="text-align:right;"> 52.71556 </td>
+   <td style="text-align:right;"> 47.28444 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1995 </td>
+   <td style="text-align:right;"> 3447 </td>
+   <td style="text-align:right;"> 3184 </td>
+   <td style="text-align:right;"> 51.98311 </td>
+   <td style="text-align:right;"> 48.01689 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1996 </td>
+   <td style="text-align:right;"> 3428 </td>
+   <td style="text-align:right;"> 3324 </td>
+   <td style="text-align:right;"> 50.77014 </td>
+   <td style="text-align:right;"> 49.22986 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1997 </td>
+   <td style="text-align:right;"> 3434 </td>
+   <td style="text-align:right;"> 3332 </td>
+   <td style="text-align:right;"> 50.75377 </td>
+   <td style="text-align:right;"> 49.24623 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 1998 </td>
+   <td style="text-align:right;"> 3493 </td>
+   <td style="text-align:right;"> 3341 </td>
+   <td style="text-align:right;"> 51.11209 </td>
+   <td style="text-align:right;"> 48.88791 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2018 </td>
+   <td style="text-align:right;"> 3485 </td>
+   <td style="text-align:right;"> 3590 </td>
+   <td style="text-align:right;"> 49.25795 </td>
+   <td style="text-align:right;"> 50.74205 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2019 </td>
+   <td style="text-align:right;"> 3468 </td>
+   <td style="text-align:right;"> 3618 </td>
+   <td style="text-align:right;"> 48.94157 </td>
+   <td style="text-align:right;"> 51.05843 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2020 </td>
+   <td style="text-align:right;"> 3262 </td>
+   <td style="text-align:right;"> 3346 </td>
+   <td style="text-align:right;"> 49.36441 </td>
+   <td style="text-align:right;"> 50.63559 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2021 </td>
+   <td style="text-align:right;"> 3363 </td>
+   <td style="text-align:right;"> 3589 </td>
+   <td style="text-align:right;"> 48.37457 </td>
+   <td style="text-align:right;"> 51.62543 </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 2022 </td>
+   <td style="text-align:right;"> 3330 </td>
+   <td style="text-align:right;"> 3686 </td>
+   <td style="text-align:right;"> 47.46294 </td>
+   <td style="text-align:right;"> 52.53706 </td>
+  </tr>
+</tbody>
+</table>
+
 </div>
 </div>
 </div>
