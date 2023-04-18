@@ -110,5 +110,5 @@ saveRDS(statesjoin, "app/GeoDist/statesjoin.RDS")
 ```
 
 ```{=html}
-<iframe height="500" width="100%" frameborder="no" src="https://lisapzhang.shinyapps.io/GeoDist/"> </iframe>
+<iframe height="600" width="100%" frameborder="no" src="https://lisapzhang.shinyapps.io/GeoDist/"> </iframe>
 ```
