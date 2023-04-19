@@ -5,7 +5,11 @@ echo: false
 editor: source
 ---
 
+Duke, being one of the most prestigious universities in the country, is renowned for its outstanding academics and extensive educational opportunities. In particular, Duke has quite the selection of courses and areas of study. As boasted by Duke's Office of Undergraduate Admissions, the university offers 53 majors, 52 minors, and 23 certificates:
 
+> #### "With the ability to create combinations of the three, you have 437,989 unique academic combinations available."
+
+Duke's selection of majors has undergone pretty drastic changes since its founding. On this page, we will look more closely at the departments over a span of 10 years, from 1933 to 1943. What changes were there in undergraduate student enrollment by department, and how do these numbers compare with the breakdown of majors today?
 
 ```{r}
 #| message = FALSE
@@ -15,13 +19,13 @@ library(dplyr)
 library(robotstxt)
 library(rvest)
 library(kableExtra)
+library(plotly)
 ```
 
 ```{r}
 #| message = FALSE
 census <- read_csv("~/idhfinal/data/census.csv")
 ```
-
 
 ```{r}
 #| label: fig-departmentdistr
@@ -43,6 +47,10 @@ census |>
   scale_x_continuous(n.breaks = 10)
 ```
 
+From @fig-departmentdistr, we can see that the most popular subjects during this decade were Economics, English, History, Physical Education, Religion, and Romance Languages. For all of these, however, it seems enrollment seemed to peak around 1939-1940 and started to decrease. This may be just the beginning of the gradual shift towards the present-day distribution, as we can compare with @tbl-majorsnow. Most of the most popular majors now did not even exist back then. Of these 6 top majors in the 30s-40s, 
+
+
+
 ```{r}
 #| message = FALSE
 censuscurrent <- read_csv("~/idhfinal/data/currentcensus.csv")
@@ -52,7 +60,30 @@ censuscurrent <- read_csv("~/idhfinal/data/currentcensus.csv")
 #| message = FALSE
 censuscurrent <- censuscurrent |>
   slice(1:57) |>
-  select(1:2)
+  select(1:2) |>
+  slice(-c(16,31,56))
+
+```
+
+```{r}
+census_num <- censuscurrent |>
+  mutate(Percent = (gsub("%", "", Percent)),
+         Percent = (gsub("<0.1", "0.05", Percent)),
+         Percent = as.numeric(Percent))
+```
+
+
+```{r}
+#| fig-height: 10
+census_num |>
+  ggplot(
+    aes(y = reorder(Subject, Percent), x = Percent)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Percent",
+       y = "Major",
+       title = "Percentages of 2021 Graduates by Major") 
+
+    
 ```
 
 ```{r}
@@ -62,4 +93,3 @@ censuscurrent |>
   kbl(col.names = c("Major", "Percent")) |>
     kable_paper("hover", "striped")
 ```
-
