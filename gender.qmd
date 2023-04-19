@@ -52,6 +52,16 @@ gender_long |>
 
 Looking at the scatterplot in @fig-genderyear, we can clearly see the increase in enrollment for both undergraduate men and women over time; however, the rate of increase for women is greater than that for men. Due to gaps in raw data, there are periods of time in which the year-to-year changes are generalized, such as during the 1960s and 2000s. However, it is still apparent that there was a general upward trend.
 
+There was a significant spike in male enrollment from 1948-1952. The end of World War II brought a flood of returning veterans to America's universities, with veterans accounting for about 70% of all male enrollment in the years after V-J Day. The Servicemen's Readjustment Act, or the G.I. Bill, was signed into law by President Franklin D. Roosevelt on June 22, 1944. This bill provided World War II veterans the funding for college education, housing, and unemployment insurance. This extended a world of educational opportunities to millions of veterans.
+
+> ##### "After World War II, American higher education rapidly expanded and became an engine of opportunity and a model for the world." - William G. Tierney, *Inside Higher Ed*
+
+According to *Duke Today*, during the 1940s, "student ranks grew with an influx of women and soldiers who planned to aid the country's efforts by furthering their education." Additionally, "during wartime, Duke's Women's College increased admissions, allowing students like Marie Foote and Muriel Theodorsen to become the first two women to earn engineering degrees from Duke." Other programs, such as the Economics, Medicine, and Divinity, experienced a jump in female enrollment as well.
+
+![Members of Duke's Navy College Training Program sit on Duke's Chapel steps on D-Day (June 6, 1944), as they read about the Invasion of Normandy from the *Durham Morning Herald newspaper.*](images/veterans.jpeg)
+
+There was also a significant dip for both male and female enrollment in 2020, which likely is the result of many students taking gap years because of the pandemic.
+
 The proportion of women undergraduate students today is greater than that of men, and that surpass occurred approximately around 2010. As of 2023, the undergraduate school is 48% male and 52% female. Although specific data is lacking for the years between 1998 and 2018, a *New York Times* article published in 2003 reported the figure of 43% of the undergraduate body being women, so until then, men still remained the majority.
 
 ```{r}
@@ -67,7 +77,6 @@ gender_long |>
        title = "Undergraduate Gender Proportions Over Time")
 ```
 
-
 ```{r}
 #| label: tbl-genderpercent
 #| tbl-cap: "The percentages per year of undergraduate men and women"
@@ -77,5 +86,3 @@ gender |>
   kbl(col.names = c("Year", "Men", "Women", "Percent Men", "Percent Women")) |>
     kable_paper("hover", "striped")
 ```
-
-
