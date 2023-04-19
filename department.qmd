@@ -5,11 +5,16 @@ echo: false
 editor: source
 ---
 
+
+
 ```{r}
 #| message = FALSE
 library(ggplot2)
 library(tidyverse)
 library(dplyr)
+library(robotstxt)
+library(rvest)
+library(kableExtra)
 ```
 
 ```{r}
@@ -38,6 +43,23 @@ census |>
   scale_x_continuous(n.breaks = 10)
 ```
 
+```{r}
+#| message = FALSE
+censuscurrent <- read_csv("~/idhfinal/data/currentcensus.csv")
+```
 
+```{r}
+#| message = FALSE
+censuscurrent <- censuscurrent |>
+  slice(1:57) |>
+  select(1:2)
+```
 
+```{r}
+#| label: tbl-majorsnow
+#| tbl-cap: "The breakdown of graduates by major, 2021"
+censuscurrent |>
+  kbl(col.names = c("Major", "Percent")) |>
+    kable_paper("hover", "striped")
+```
 
