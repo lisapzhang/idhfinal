@@ -47,7 +47,7 @@ census |>
   scale_x_continuous(n.breaks = 10)
 ```
 
-From @fig-departmentdistr, we can see that the most popular subjects during this decade were Economics, English, History, Physical Education, Religion, and Romance Languages. For all of these, however, it seems enrollment seemed to peak around 1939-1940 and started to decrease. This may be just the beginning of the gradual shift towards the present-day distribution, as we can compare with @tbl-majorsnow. Most of the most popular majors now did not even exist back then. Of these 6 top majors in the 30s-40s, 
+From @fig-departmentdistr, we can see that the most popular subjects during this decade were Economics, English, History, Physical Education, Religion, and Romance Languages. For all of these, however, it seems enrollment seemed to peak around 1939-1940 and started to decrease. This may be just the beginning of the gradual shift towards the present-day distribution, as we can compare with @tbl-majorsnow. Most of the most popular majors now did not even exist back then. Of these 6 top majors in the 30s-40s, a few don't exist anymore today, or exist in modified forms. For example, Physical Education is no longer offered as a major, though PE classes are still offered. Romance Languages is no longer under an umbrella term, but students may choose to study individual languages like French, Spanish, and Italian. With the exception of Economics, which is still one of the most popular majors, making up 6.9% of graduates, the other 5 have decreased in popularity, and their percentages can be seen in @tbl-majorsnow.
 
 
 
