@@ -15,6 +15,7 @@ website:
     - enrollment.qmd
     - department.qmd
     - geographical.qmd
+    - sources.qmd
 
 format: 
   pdf: default
