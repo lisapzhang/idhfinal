@@ -52,35 +52,20 @@ From @fig-departmentdistr, we can see that the most popular subjects during this
 In just one decade, many changes were made in the selection of majors. Let's break these down year-by-year:
 
 -   Fall 1933:
-
     -   Engineering was split into Civil&Mechanical and Electrical Engineering.
-
     -   Music was added.
-
     -   Physical Education was split into men and women. (These two were combined during data collection for consistency)
-
 -   Fall 1934:
-
     -   Forestry was added.
-
     -   Political Science was added.
-
 -   Fall 1935:
-
     -   Economics became Economics and Business Administration. (Still called Economics in data collection for consistency)
-
 -   Fall 1936:
-
     -   Geology was added.
-
 -   Fall 1937:
-
     -   Civil&Mechanical Engineering was split into Civil Engineering and Mechanical Engineering. (Data was collected separately for the years after this split, but were combined for visual consistency)
-
     -   Romance Languages was separated into French, Italian, Spanish.
-
 -   Fall 1942:
-
     -   Fine Arts and Music were combined into Aesthetics, Art, and Music.
 
 ```{r}
