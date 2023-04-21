@@ -1,7 +1,6 @@
 ---
 title: "Sources"
 format: html
-echo: false
 editor: source
 ---
 
