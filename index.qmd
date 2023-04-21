@@ -18,4 +18,6 @@ I collected data on four aspects of student enrollment over time, namely gender 
 
 As you click through the tabs and scroll through the pages, take a closer look at the numbers and visualizations that together, form a narrative of the generations of students that came before.
 
+![](images/chapel.webp){fig-align="center" width="206"}
+
 *A big thank you to the Duke University Archives and Professor Jacobs for assisting me in the collection of the data and the development of this project.*
