@@ -87,4 +87,6 @@ gender |>
     kable_paper("hover", "striped")
 ```
 
+Note:
+
 Challenges encountered in the collection of gender distribution data were the absence of records from the years 1935, 1943-1947, 1953-1966, and 1999-2017. Access to this data would have allowed us to do a closer and more accurate examination of year-by-year trends. However, we have enough data to look at the general trend throughout the last century. The data available was also only recorded by semester, so the data used was from the fall semester of each year denoted in the table and visualizations.
