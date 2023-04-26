@@ -4,23 +4,22 @@ format: html
 editor: source
 ---
 
+Bureau, US Census. "Cartographic Boundary Files - Shapefile." Census.gov, 8 Oct. 2021, census.gov.
 
-https://library.duke.edu/rubenstein/uarchives/history/articles/washington-duke-women
+"Duke in Pictures: Duke's Wartime History." Duke Today, today.duke.edu.
 
-https://archives.lib.duke.edu/catalog/uawomans
+"Duke University Graduation Rate & Retention Rate." College Factual, College Factual, 30 Mar. 2023, collegefactual.com.
 
-https://www.nytimes.com/2003/09/24/nyregion/social-expectations-pressuring-women-at-duke-study-finds.html 
+Kasia. "Duke Chapel - Duke University Chapel Sketch , Free Transparent Clipart - ClipartKey." Clipartkey.com, clipartkey.com.
 
-https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html
+Rimer, Sara. "Social Expectations Pressuring Women at Duke, Study Finds." *The New York Times*, The New York Times, 24 Sept. 2003, nytimes.com.
 
-https://www.collegefactual.com/colleges/duke-university/academic-life/graduation-and-retention/
+"Servicemen's Readjustment Act (1944)." National Archives and Records Administration, National Archives and Records Administration, archives.gov.
 
-https://www.insidehighered.com/views/2021/04/05/higher-ed-should-learn-lessons-world-war-ii-about-serving-public-good-opinion#:~:text=After%20World%20War%20II%2C%20American,financially%20hammered%20by%20the%20war.
+"The Duke Freshman Record, Class of 1976." HathiTrust, babel.hathitrust.org.
 
-https://www.archives.gov/milestone-documents/servicemens-readjustment-act#:~:text=Signed%20into%20law%20by%20President,WWII%20and%20later%20military%20conflicts.
+Tierney, William G. "Higher Ed Should Learn Lessons from World War II about Serving the Public Good (Opinion)." Inside Higher Ed \| Higher Education News, Events and Jobs, insidehighered.com.
 
-https://today.duke.edu/2012/11/vetsdaypic\
+"Washington Duke and the Education of Women." Duke University Libraries, library.duke.edu.
 
-https://babel.hathitrust.org/cgi/pt?id=dul1.ark:/13960/t4fn2c63x&view=1up&seq=5
-
-https://www.clipartkey.com/view/mxRbii_duke-chapel-duke-university-chapel-sketch/
+"Woman's College Records, 1928-1974 - Archives & Manuscripts at Duke University Libraries." David M. Rubenstein Rare Book & Manuscript Library, archives.lib.duke.edu.
