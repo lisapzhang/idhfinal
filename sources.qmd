@@ -4,6 +4,24 @@ format: html
 editor: source
 ---
 
+Data from:
+
+Duke University Archives
+
+Office of the University Registrar records, 1853-2000
+
+Statistics, 1925-1999
+
+-   Box 30: Statistics, 1925-1948
+
+-   Box 31: Statistics, 1948-1969
+
+-   Box 32: Statistics, 1969-1999
+
+-   Box 36: Class Census Reports (6 folders), 1932-1943
+
+Other Works Cited:
+
 Bureau, US Census. "Cartographic Boundary Files - Shapefile." Census.gov, 8 Oct. 2021, census.gov.
 
 "Duke in Pictures: Duke's Wartime History." Duke Today, today.duke.edu.
