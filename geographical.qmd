@@ -5,7 +5,7 @@ echo: false
 editor: source
 ---
 
-Today, students of Duke University hail from all 50 states and over 126 different countries. However, this was not always the case. At its very beginning, the school was a one-room log schoolhouse for local Methodists and Quakers in Randolph County, North Carolina. As it gradually expanded, students from nearby states started to enroll, and eventually they started coming from opposite coasts and across oceans. Let's look at how the geographical distributions of the undergraduate body have changed each decade. Which states and countries does Duke accept the most students from?
+Today, students of Duke University hail from all 50 states and over 126 different countries. However, this was not always the case. At its very beginning, the school was a one-room log schoolhouse for local Methodists and Quakers in Randolph County, North Carolina. As it gradually expanded, students from nearby states started to enroll, and eventually they started coming from opposite coasts and across oceans. Let's look at how the geographical distributions of the undergraduate body have changed by decade. Which states and countries does Duke accept the most students from?
 
 ![The geographical distribution of undergraduate students in Trinity College and College of Engineering in fall of 1949 (Source: Duke University Archives Office of the University Registrar Records)](images/USDISTRIBUTION-01.png)
 
@@ -35,7 +35,7 @@ geodist <- geodist |>
 
 ```{r}
 #| label: fig-geodist
-#| fig-cap: "The number of undergraduate students from each specified geographic region from the years 1929 to 1990"
+#| fig-cap: "The number of undergraduate students from each specified geographic region from the years 1929 to 1990 (Source: Office of the University Registrar records, Statistics 1925-1999, Boxes 30, 31, 32)"
 #| fig-width: 10
 #| fig-height: 10
 geodist |>
@@ -51,15 +51,15 @@ geodist |>
   scale_x_continuous(n.breaks = 10) 
 ```
 
-Although the scale in @fig-geodist makes it hard to see subtle differences between many states and countries, we can easily see which regions had significantly more students and which ones had significant increases over time. As expected, North Carolina was always higher than all others, and California, Connecticut, Florida, Georgia, Maryland, New Jersey, New York, Pennsylvania, Texas, and Virginia all had pretty noticeable increases.
+Although the scale in @fig-geodist makes it hard to see subtle differences between many states and countries, we can easily see which regions had significantly more students and which ones experienced significant increases over time. As expected, North Carolina has always had higher enrollment than all others, and California, Connecticut, Florida, Georgia, Maryland, New Jersey, New York, Pennsylvania, Texas, and Virginia all experienced noticeable increases over time.
 
 Notes:
 
-Canal Zone refers to the historic administrative entity in Panama over which the United States exercised jurisdictional rights from 1903 to 1979. It was a strip of land 10 miles (16 km) wide along the Panama Canal, extending from the Atlantic to the Pacific Ocean and bisecting the Isthmus of Panama. The Canal Zone came into being on May 4, 1904 ("Acquisition Day"), under the terms of the Hay--Bunau-Varilla Treaty of 1903, by which Panama granted to the United States, in return for annual payments, the sole right to operate and control the canal and about 5 miles (8 km) of land on each side.
+"Canal Zone refers to the historic administrative entity in Panama over which the United States exercised jurisdictional rights from 1903 to 1979. It was a strip of land 10 miles (16 km) wide along the Panama Canal, extending from the Atlantic to the Pacific Ocean and bisecting the Isthmus of Panama. The Canal Zone came into being on May 4, 1904 ("Acquisition Day"), under the terms of the Hay--Bunau-Varilla Treaty of 1903, by which Panama granted to the United States, in return for annual payments, the sole right to operate and control the canal and about 5 miles (8 km) of land on each side." ([Encyclopedia Britannica](https://www.britannica.com/place/Canal-Zone))
 
 Java is an island of Indonesia the world's most populous island, and is home to more than half of the country's population.
 
-Foreign and Territory became the terms used in the statistical records from 1970s and 1990s on, respectively, presumably due to the increase in foreign countries and regions around the world, making it more convenient to categorize them more broadly.
+"Foreign" and "Territory" became the terms used in the statistical records from the 1970s and 1990s on, respectively, presumably due to the increase in enrollment of students from foreign countries and regions around the world, making it more convenient to categorize them more broadly.
 
 ```{r}
 #| label: geodistwide
@@ -88,7 +88,8 @@ geodistwide <- geodistwide |>
 ```
 
 ```{r}
-#| label: geodistwide-kable
+#| label: tbl-geodistwide-kable
+#| tbl-cap: "The breakdown of geographical distributions from the years 1929 to 1990 (Source: Office of the University Registrar records, Statistics 1925-1999, Boxes 30, 31, 32)"
 geodistwide |>
   kbl(col.names = c("State", "1929", "1930", "1940", "1950", "1970", "1980", "1990")) |>
     kable_paper("hover")
@@ -114,4 +115,4 @@ saveRDS(statesjoin, "app/GeoDist/statesjoin.RDS")
 ```
 Note:
 
-Some limitations I encountered in the collection of my data were inconsistencies in record-keeping. Some years there was only geographical distribution information for just undergraduate men, or just freshmen, or undergraduate men of Trinity, or undergraduate women. This is why there were some missing years. Additionally, there was only data by semester, not by year, so the data I collected was from the fall semester of each respective year. Starting in 1967, Duke started publishing an annual statistical report, making the records much more consistent and easy to access.
+Some limitations I encountered in the collection of my data were inconsistencies in record-keeping. Some years there was geographical distribution information for only undergraduate men, or only freshmen, or undergraduate men of Trinity, or undergraduate women. This is why there were some missing years. Additionally, data was recorded by semester, not by year, so I used the enrollment numbers from the fall semester of each respective year. Starting in 1967, Duke started publishing an annual statistical report, making the records much more consistent and easy to access.
