@@ -13,7 +13,7 @@ When the college opened in Durham in 1892, a vote by the Board of Trustees' form
 
 The Woman's College was established in 1930 with the completion of the construction of East Campus, while West Campus was home to the men's Trinity College. Classes for women were held separately from those for men, and mostly on East Campus. Over time, interest in coeducation grew, and eventually, the two schools were merged in 1972.
 
-![Baldwin Auditorium, originally named Woman's College Auditorium, renamed after Dean Alice Baldwin in 1968. (Source: Duke University Archives Flickr)](images/2312300399_cb44a3007d_o.jpg)
+![Baldwin Auditorium, originally named Woman's College Auditorium, renamed after Dean Alice Baldwin in 1968. (Source: Duke University Archives Flickr)](images/2312300399_cb44a3007d_o.jpg){fig-alt="Baldwin Auditorium, former Woman's College Auditorium"}
 
 ```{r}
 #| message = FALSE
@@ -58,7 +58,7 @@ There was a significant spike in male enrollment from 1948-1952. The end of Worl
 
 According to *Duke Today*, during the 1940s, "student ranks grew with an influx of women and soldiers who planned to aid the country's efforts by furthering their education" (Tierney). Additionally, "during wartime, Duke's Women's College increased admissions, allowing students like Marie Foote and Muriel Theodorsen to become the first two women to earn engineering degrees from Duke" (Tierney). Other programs, such as the Economics, Medicine, and Divinity, experienced a jump in female enrollment as well.
 
-![Members of Duke's Navy College Training Program sit on Duke's Chapel steps on D-Day (June 6, 1944), as they read about the Invasion of Normandy from the Durham Morning Herald newspaper. (Source: Duke Today)](images/veterans.jpeg)
+![Members of Duke's Navy College Training Program sit on Duke's Chapel steps on D-Day (June 6, 1944), as they read about the Invasion of Normandy from the Durham Morning Herald newspaper. (Source: Duke Today)](images/veterans.jpeg){fig-alt="Duke students sitting on Chapel steps on D-Day"}
 
 There was also a significant dip for both male and female enrollment in 2020, which likely is the result of many students taking gap years because of the pandemic.
 
