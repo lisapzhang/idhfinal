@@ -7,7 +7,7 @@ editor: source
 
 Today, students of Duke University hail from all 50 states and over 126 different countries. However, this was not always the case. At its very beginning, the school was a one-room log schoolhouse for local Methodists and Quakers in Randolph County, North Carolina. As it gradually expanded, students from nearby states started to enroll, and eventually they started coming from opposite coasts and across oceans. Let's look at how the geographical distributions of the undergraduate body have changed each decade. Which states and countries does Duke accept the most students from?
 
-![The geographical distribution of undergraduate students in Trinity College and College of Engineering in fall of 1949](images/USDISTRIBUTION-01.png)
+![The geographical distribution of undergraduate students in Trinity College and College of Engineering in fall of 1949 (Source: Duke University Archives Office of the University Registrar Records)](images/USDISTRIBUTION-01.png)
 
 ```{r}
 #| message = FALSE
