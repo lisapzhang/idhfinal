@@ -10,7 +10,7 @@ Lisa Zhang --- Introduction to Digital Humanities, Spring 2023
 
 ### Visualizing Duke's Student Body, from the 1920s to the 2020s.
 
-This project is all about the students who shaped the development of Duke and transfused the campus with vitality throughout the last century. Since its origins as a one-room log schoolhouse, these students have been fundamental in keeping the institution alive, preserving its educational values and standards yet constantly pushing for greater ends. Today, Duke students continue to harness their ambition and appetite for inquiry to live out the bylaws of the University:
+This project is all about the students who shaped the development of Duke and transfused the campus with vitality throughout the last century. Since its origins as a one-room log schoolhouse, these students have been fundamental in keeping the institution alive, preserving its educational values and standards yet constantly pushing for greater ends. Today, Duke students continue to harness their ambition and appetite for inquiry to live out the [bylaws of the University](https://library.duke.edu/rubenstein/uarchives/history/articles/charter-bylaws-aims-mission):
 
 > *"to foster a lively relationship between knowledge and faith; to advance learning in all lines of truth; to defend scholarship against all false notions and ideals; to develop a love of freedom and truth; to promote a respectful spirit of dialogue and understanding; to discourage all partisan and sectarian strife; and to further the advancement of knowledge in service to society."*
 
@@ -18,11 +18,11 @@ This project is all about the students who shaped the development of Duke and tr
 
 *A quote from English poet and teacher William Johnson Cory, published in the Duke Freshman Record, Class of 1976, summing up the spirit of education that Duke University has sought to promote since its founding.* (Source: Duke Freshman Record)
 
-I gathered data from the Duke University Archives Office of the University Registrar collection on four aspects of student enrollment over time, namely gender distribution, class enrollment distribution, departmental distribution, and geographical distribution. Each of these four profiles can reveal much about the history of students at Duke and what external factors contributed to the changes that occurred.
+I gathered data from the [Duke University Archives Office of the University Registrar collection](https://archives.lib.duke.edu/catalog/uaregistrar) on four aspects of student enrollment over time, namely gender distribution, class enrollment distribution, departmental distribution, and geographical distribution. Each of these four profiles can reveal much about the history of students at Duke and what external factors contributed to the changes that occurred.
 
-To collect the data, I requested the physical materials from the University Archives, and transcribed the printed records into Excel spreadsheets. For each category, I chose a manageable amount of data for the time I was given, such as focusing on just one decade for the Department data. For others, like Geographical Distribution, I looked at data for the first year of each decade. I manipulated these data sets for my visualization and analysis.
+To collect the data, I requested the physical materials from the University Archives, and transcribed the printed records into Excel spreadsheets. For each category, I chose a manageable amount of data for the time I was given, such as focusing on just one decade for the Department data. For others, like Geographical Distribution, I looked at data for the first year of each decade. I manipulated these data sets for my visualization and analysis using R, which I also used to host this project as a website.
 
-As you click through the tabs and scroll through the pages, take a closer look at the numbers and visualizations that together, form a narrative of the generations of students that came before.
+As you click through the tabs and scroll through the pages, take a closer look at the numbers and visualizations that together form a narrative of the generations of students that came before.
 
 ![](images/chapel.webp){fig-align="center" width="206"}
 

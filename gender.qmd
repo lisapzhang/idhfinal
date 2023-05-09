@@ -7,7 +7,7 @@ editor: source
 
 Let's examine the distributions of male and female undergraduate students at Duke University throughout the last century, using data on male and female students collected from the fall semesters for various years between 1929 and 2022. How have these distributions changed over time, and what has Duke done to facilitate these changes?
 
-When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, after Trinity College's move to Durham, benefactor Washington Duke wrote to president John C. Kilgo pledging \$100,000 to Trinity College for endowment provided the college "will open its doors to women placing them on an equal footing with men." This act gained widespread acclaim and garnered increased support for womens' rights and education.
+When Duke University, then known as Trinity College, first opened in 1838, it was a small preparatory school for young men only. In a letter dated December 5, 1896, after Trinity College's move to Durham, benefactor Washington Duke wrote to president John C. Kilgo pledging \$100,000 to Trinity College for endowment provided the college ["will open its doors to women placing them on an equal footing with men."](https://library.duke.edu/rubenstein/uarchives/history/articles/washington-duke-women) This act gained widespread acclaim and garnered increased support for womens' rights and education.
 
 When the college opened in Durham in 1892, a vote by the Board of Trustees' formally allowed women to enroll, but as day students only. There were four women enrolled then, and three of them were the daughters of faculty. These women were about to graduate at the time of Washington Duke's gift, but the funds went to building a new womens' dormitory, which dramatically increased interested in the school for female students. The new dormitory was proudly named Mary Duke Building, in honor of Washington Duke's only daughter, Mary Duke.
 
@@ -39,7 +39,7 @@ gender_long <- gender |>
 
 ```{r}
 #| label: fig-genderyear
-#| fig-cap: "The number of male and female undergraduate students from the years 1929 to 2022"
+#| fig-cap: "The number of male and female undergraduate students from the years 1929 to 2022 (Source: Office of the University Registrar records, Statistics 1925-1999, Boxes 30, 31, 32)"
 gender_long |>
   ggplot(
     aes(x = Year, y = Number, color = Gender)) +
@@ -56,17 +56,17 @@ There was a significant spike in male enrollment from 1948-1952. The end of Worl
 
 > ##### "After World War II, American higher education rapidly expanded and became an engine of opportunity and a model for the world." - William G. Tierney, *Inside Higher Ed*
 
-According to *Duke Today*, during the 1940s, "student ranks grew with an influx of women and soldiers who planned to aid the country's efforts by furthering their education." Additionally, "during wartime, Duke's Women's College increased admissions, allowing students like Marie Foote and Muriel Theodorsen to become the first two women to earn engineering degrees from Duke." Other programs, such as the Economics, Medicine, and Divinity, experienced a jump in female enrollment as well.
+According to *Duke Today*, during the 1940s, "student ranks grew with an influx of women and soldiers who planned to aid the country's efforts by furthering their education" (Tierney). Additionally, "during wartime, Duke's Women's College increased admissions, allowing students like Marie Foote and Muriel Theodorsen to become the first two women to earn engineering degrees from Duke" (Tierney). Other programs, such as the Economics, Medicine, and Divinity, experienced a jump in female enrollment as well.
 
 ![Members of Duke's Navy College Training Program sit on Duke's Chapel steps on D-Day (June 6, 1944), as they read about the Invasion of Normandy from the Durham Morning Herald newspaper. (Source: Duke Today)](images/veterans.jpeg)
 
 There was also a significant dip for both male and female enrollment in 2020, which likely is the result of many students taking gap years because of the pandemic.
 
-The proportion of women undergraduate students today is greater than that of men, and that surpass occurred approximately around 2010. As of 2023, the undergraduate school is 48% male and 52% female. Although specific data is lacking for the years between 1998 and 2018, a *New York Times* article published in 2003 reported the figure of 43% of the undergraduate body being women, so until then, men still remained the majority.
+The proportion of women undergraduate students today is greater than that of men, and that shift occurred around 2010. As of 2023, the undergraduate school is 48% male and 52% female. Although specific data is lacking for the years between 1998 and 2018, a *New York Times* article published in 2003 reported the figure of 43% of the undergraduate body being women, so until then, men still remained the majority.
 
 ```{r}
 #| label: fig-genderpercent
-#| fig-cap: "The proportions of male and female undergraduate students from the years 1929 to 2022"
+#| fig-cap: "The proportions of male and female undergraduate students from the years 1929 to 2022 (Source: Office of the University Registrar records, Statistics 1925-1999, Boxes 30, 31, 32)"
 gender_long |>
   ggplot(
     aes(x = Year, y = Number, fill = Gender)
@@ -79,7 +79,7 @@ gender_long |>
 
 ```{r}
 #| label: tbl-genderpercent
-#| tbl-cap: "The percentages per year of undergraduate men and women"
+#| tbl-cap: "The percentages per year of undergraduate men and women (Source: Office of the University Registrar records, Statistics 1925-1999, Boxes 30, 31, 32)"
 gender |>
   mutate(`Percent Men` = Men/(Men + Women)*100,
          `Percent Women` = Women/(Men + Women)*100) |>
@@ -89,4 +89,4 @@ gender |>
 
 Note:
 
-Challenges encountered in the collection of gender distribution data were the absence of records from the years 1935, 1943-1947, 1953-1966, and 1999-2017. Access to this data would have allowed us to do a closer and more accurate examination of year-by-year trends. However, we have enough data to look at the general trend throughout the last century. The data available was also only recorded by semester, so the data used was from the fall semester of each year denoted in the table and visualizations.
+I encountered a number of challenges in the collection of gender distribution data, including the absence of records from the years 1935, 1943-1947, 1953-1966, and 1999-2017. Access to this data would have allowed me to do a closer and more accurate examination of year-by-year trends. However, there is enough data to look at the general trend throughout the last century. The data available was also recorded by semester, so the data used was from the fall semester of each year as denoted in the table and visualizations.
